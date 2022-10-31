@@ -1,0 +1,14 @@
+TUTORIAL KONFIGURASI
+1. AKTIFKAN XAMPP DAN HIDUPKAN APACHE DAN MYSQL
+2. BUKA PHPMYADMIN
+3. IMPORT DATABASE 
+   - BUAT DULU DATABASENYA (CREATE DATABASE fuzzy)
+   - PILIH DATABASE YANG TELAH DIBUAT
+   - PILIH IMPORT DAN CARI FILE .db NYA
+4. PINDAHKAN PROJECT KE HTDOCS
+5. SEBELUM DI RUN ADA KONFIGURASI YANG WAJIB DIGANTI
+   * Buka projectnya bagian application->config->config.php. Bagian $config['base_url']
+     diganti dengan http://localhost/fuzzy
+   * Buka projectnya bagian application->config->database.php. 
+     Bagian username diganti localhost, bagian password kosongin saja, dan bagian
+     nama database ganti fuzzy
